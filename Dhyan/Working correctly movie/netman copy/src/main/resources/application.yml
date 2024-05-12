@@ -1,0 +1,18 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 607795509178-hepl5hch2l00d3igftdbcs6e5vkiip7k.apps.googleusercontent.com
+            client-secret: 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
+          okta:
+            client-id: 0oaa291221aCE68cd5d7
+            client-secret: 1mWNHtpaBGu52QNlDuM2JLc5JVuCOBL611_lGCu-
+        provider:
+          okta:
+            authorization-uri: https://dev-34251156.okta.com/oauth2/default/v1/authorize
+            token-uri: https://dev-34251156.okta.com/oauth2/default/v1/token
+            user-info-uri: https://dev-34251156.okta.com/oauth2/default/v1/userinfo
+            jwk-set-uri: https://dev-34251156.okta.com/oauth2/default/v1/keys
+
